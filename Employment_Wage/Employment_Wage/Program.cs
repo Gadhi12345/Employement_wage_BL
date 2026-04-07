@@ -3,10 +3,12 @@
 class EmployeeWage
 {
     private string companyName;
+    private int wagePerHour;
 
-    public EmployeeWage(string companyName)
+    public EmployeeWage(string companyName, int wagePerHour)
     {
         this.companyName = companyName;
+        this.wagePerHour = wagePerHour;
     }
 
     public int GetDailyHours()
@@ -14,12 +16,15 @@ class EmployeeWage
         Random rand = new Random();
         int empCheck = rand.Next(0, 3);
 
-        switch (empCheck)
-        {
-            case 1: return 8;
-            case 2: return 4;
-            default: return 0;
-        }
+        return (empCheck == 1) ? 8 : (empCheck == 2 ? 4 : 0);
+    }
+
+    public void ComputeDailyWage()
+    {
+        int hours = GetDailyHours();
+        int wage = hours * wagePerHour;
+
+        Console.WriteLine("Daily Wage: " + wage);
     }
 }
 
@@ -27,7 +32,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        EmployeeWage emp = new EmployeeWage("TCS");
-        Console.WriteLine("Daily Hours: " + emp.GetDailyHours());
+        EmployeeWage emp = new EmployeeWage("TCS", 20);
+        emp.ComputeDailyWage();
     }
 }
