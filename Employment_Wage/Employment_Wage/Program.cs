@@ -4,13 +4,11 @@ class EmployeeWage
 {
     private string companyName;
     private int wagePerHour;
-    private int workingDays;
 
-    public EmployeeWage(string companyName, int wagePerHour, int workingDays)
+    public EmployeeWage(string companyName, int wagePerHour)
     {
         this.companyName = companyName;
         this.wagePerHour = wagePerHour;
-        this.workingDays = workingDays;
     }
 
     public int GetDailyHours()
@@ -21,12 +19,14 @@ class EmployeeWage
         return (empCheck == 1) ? 8 : (empCheck == 2 ? 4 : 0);
     }
 
-    public void ComputeEmployeeWage()
+    public void ComputeWageWithLimit()
     {
         int totalHours = 0;
+        int totalDays = 0;
 
-        for (int i = 0; i < workingDays; i++)
+        while (totalHours < 100 && totalDays < 20)
         {
+            totalDays++;
             totalHours += GetDailyHours();
         }
 
@@ -40,7 +40,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        EmployeeWage emp = new EmployeeWage("TCS", 20, 10);
-        emp.ComputeEmployeeWage();
+        EmployeeWage emp = new EmployeeWage("TCS", 20);
+        emp.ComputeWageWithLimit();
     }
 }
