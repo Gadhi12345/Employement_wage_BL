@@ -1,0 +1,15 @@
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\bin\Debug\net8.0\Employment_Wage.exe
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\bin\Debug\net8.0\Employment_Wage.deps.json
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\bin\Debug\net8.0\Employment_Wage.runtimeconfig.json
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\bin\Debug\net8.0\Employment_Wage.dll
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\bin\Debug\net8.0\Employment_Wage.pdb
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.AssemblyInfoInputs.cache
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.AssemblyInfo.cs
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.csproj.CoreCompileInputs.cache
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.sourcelink.json
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.dll
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\refint\Employment_Wage.dll
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.pdb
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\Employment_Wage.genruntimeconfig.cache
+D:\Employment_wage_BL\Employment_Wage\Employment_Wage\obj\Debug\net8.0\ref\Employment_Wage.dll

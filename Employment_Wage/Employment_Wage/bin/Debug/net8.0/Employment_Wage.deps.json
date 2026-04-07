@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Employment_Wage/1.0.0": {
+        "runtime": {
+          "Employment_Wage.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Employment_Wage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

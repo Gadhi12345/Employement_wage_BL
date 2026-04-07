@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Employment_wage_BL\\Employment_Wage\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1209E0C4-F23A-4E6B-9B12-166068E024F7}|Employment_Wage\\Employment_Wage.csproj|d:\\employment_wage_bl\\employment_wage\\employment_wage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1209E0C4-F23A-4E6B-9B12-166068E024F7}|Employment_Wage\\Employment_Wage.csproj|solutionrelative:employment_wage\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Employment_wage_BL\\Employment_Wage\\Employment_Wage\\Program.cs",
+              "RelativeDocumentMoniker": "Employment_Wage\\Program.cs",
+              "ToolTip": "D:\\Employment_wage_BL\\Employment_Wage\\Employment_Wage\\Program.cs",
+              "RelativeToolTip": "Employment_Wage\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T17:34:13.896Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
