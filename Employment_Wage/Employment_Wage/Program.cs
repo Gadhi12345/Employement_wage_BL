@@ -9,15 +9,17 @@ class EmployeeWage
         this.companyName = companyName;
     }
 
-    public void CheckAttendance()
+    public int GetDailyHours()
     {
         Random rand = new Random();
-        int empCheck = rand.Next(0, 2);
+        int empCheck = rand.Next(0, 3);
 
-        if (empCheck == 1)
-            Console.WriteLine("Employee Present - 8 Hours");
-        else
-            Console.WriteLine("Employee Absent - 0 Hours");
+        switch (empCheck)
+        {
+            case 1: return 8;
+            case 2: return 4;
+            default: return 0;
+        }
     }
 }
 
@@ -26,6 +28,6 @@ class Program
     static void Main(string[] args)
     {
         EmployeeWage emp = new EmployeeWage("TCS");
-        emp.CheckAttendance();
+        Console.WriteLine("Daily Hours: " + emp.GetDailyHours());
     }
 }
