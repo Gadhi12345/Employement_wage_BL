@@ -42,5 +42,8 @@ class Program
     {
         EmployeeWage emp = new EmployeeWage("TCS", 20);
         emp.ComputeWageWithLimit();
+
+        EmployeeWage emp1 = new EmployeeWage("Maatrum", 40);
+        emp1.ComputeWageWithLimit();
     }
 }
